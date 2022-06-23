@@ -107,7 +107,7 @@ author:
   name             : "Timeless Persona"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "CNUCSE Undergraduate"
-  #location         : "Somewhere"
+  location         : "Somewhere"
   email            : "rlgns9803@naver.com"
   links:
     - label: "Email"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/TimelessPersona"
+      url: "https://github.com/TimelessPersona"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
