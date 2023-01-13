@@ -25,6 +25,11 @@
                         <li><a href="/categories/pwnable" class="">pwnable ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "CTF" %}
+                        <li><a href="/categories/CTF" class="">CTF ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
   </ul>
