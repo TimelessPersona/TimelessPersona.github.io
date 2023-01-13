@@ -30,6 +30,11 @@
                         <li><a href="/categories/CTF" class="">CTF ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "PwnCollege" %}
+                        <li><a href="/categories/PwnCollege" class="">CTF ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
       </li>
   </ul>

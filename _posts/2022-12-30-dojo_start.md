@@ -3,7 +3,7 @@ title: "[pwn college] dojo 챌린지 세팅"
 excerpt: "pwn college dojo 시작 전 세팅"
 
 categories:
-    - Pwn College
+    - PwnCollege
 date: 2022-12-30
 ---
 
