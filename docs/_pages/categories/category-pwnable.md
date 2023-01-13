@@ -1,7 +1,7 @@
 ---
 title: "pwnable.kr 문제풀이"
 layout: archive
-permalink: /categories/pwnable
+permalink: /categories/pwnable/
 author_profile: true
 sidebar_main: true
 ---

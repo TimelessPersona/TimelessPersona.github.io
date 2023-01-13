@@ -1,7 +1,7 @@
 ---
 title: "모각코 활동 기록"
 layout: archive
-permalink: /categories/MGC
+permalink: /categories/MGC/
 author_profile: true
 sidebar_main: true
 ---
