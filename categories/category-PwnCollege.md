@@ -1,7 +1,7 @@
 ---
 title: "Pwn College 문제풀이"
 layout: archive
-permalink: /categories/Pwncollege/
+permalink: /categories/PwnCollege/
 author_profile: true
 sidebar_main: true
 ---
