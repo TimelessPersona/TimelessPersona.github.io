@@ -18,11 +18,21 @@ layout: archive
 <!-- 1) 최신 포스트 1개 강조 -->
 <h3 class="archive__subtitle">Latest Post</h3>
 
-<div class="featured-post entries-{{ entries_layout }}">
-  {% for post in posts limit:1 %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+{% for post in posts limit:1 %}
+  <article class="featured-post">
+    <h2 class="page__title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    <p class="page__meta">
+      {{ post.date | date: "%Y-%m-%d" }}
+    </p>
+
+    <div class="page__content">
+      {{ post.content }}
+    </div>
+  </article>
+{% endfor %}
 
 <!-- 2) 그 아래 최근 포스트 리스트 -->
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
